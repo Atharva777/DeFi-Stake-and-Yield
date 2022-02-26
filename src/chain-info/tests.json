@@ -1,0 +1,69 @@
+{
+  "contracts": {
+    "DappToken": "97b05a71fabf6ccc0185b15cc19efd0200061115",
+    "LinkToken": "49e7bae2df618e81d877632c6ad55872ff2ce801",
+    "MockBAT": "3685f9cade56c5daa9eb64ea0d4c23404bf813b7",
+    "MockDAI": "ab1a66bc3a36fcf1351179f7adbca527a0f6c911",
+    "MockV3Aggregator": "9e734e161b5cafcca52a917f10266f5a8bc05b28",
+    "MockWETH": "21c4935a4e5b858efd5c83f628f8bb78bafdabce",
+    "OpenZeppelin/openzeppelin-contracts@4.2.0/ERC20": "5c27d7156fdbfe889902cc167df697405a50ad20",
+    "TokenFarm": "5e54be5fd0c13b2ebc3062d0af5088d6fd1a0e8d",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.1/BasicToken": "92084ac5279a2a3db988d9e01d7e6d3e3a4dab8d",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.1/SafeMathChainlink": "bf84f5dba942291289c80f271862cb515ce813ab",
+    "smartcontractkit/chainlink-brownie-contracts@0.2.1/StandardToken": "7f21b0e2f1d1fcf89f4466183c9e73bc3cf77276"
+  },
+  "tests": {
+    "tests/unit/test_token_farm.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".EEEFE.",
+      "sha1": "fd4a8072a518aae74143585a996e44f9fa6ab310",
+      "txhash": [
+        "3c36cbcdf48944251766c36ab14a5185e051ae89",
+        "b4cf808883aa02257229bcb9ba836fc1a28bb0db"
+      ]
+    }
+  },
+  "tx": {
+    "3c36cbcdf48944251766c36ab14a5185e051ae89": {
+      "TokenFarm": {
+        "0": [
+          [],
+          [],
+          []
+        ],
+        "4": [
+          [],
+          [],
+          []
+        ],
+        "7": [
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    "b4cf808883aa02257229bcb9ba836fc1a28bb0db": {
+      "TokenFarm": {
+        "0": [
+          [],
+          [],
+          []
+        ],
+        "4": [
+          [
+            7
+          ],
+          [],
+          []
+        ],
+        "7": [
+          [],
+          [],
+          []
+        ]
+      }
+    }
+  }
+}
